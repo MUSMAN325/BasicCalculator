@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+        <div id="container">
+            <table border="1">
+                <tr>
+                    <input type="text" name="" id="input">
+                </tr>
+                <tr>
+                  <td colspan="3" ><button onclick="clearResult()">C</button></td>
+                  <td><button onclick="number('/')">/</button></td>
+                </tr>
+              <tr>
+                  <td><button onclick="number('7')">7</button></td>
+                  <td><button onclick="number('8')">8</button></td>
+                  <td><button onclick="number('9')">9</button></td>
+                  <td><button onclick="number('*')">*</button></td>
+              </tr>
+              <tr>
+                <td><button onclick="number('4')">4</button></td>
+                <td><button onclick="number('5')">5</button></td>
+                <td><button onclick="number('6')">6</button></td>
+                <td><button onclick="number('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('1')">1</button></td>
+                <td><button onclick="number('2')">2</button></td>
+                <td><button onclick="number('3')">3</button></td>
+                <td><button onclick="number('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('0')">0</button></td>
+                <td><button onclick="number('.')">.</button></td>
+                <td><button onclick="result('=')">=</button></td>
+                <td><button onclick="number('%')">%</button></td>
+            </tr>
+            </table>
+        
+        </div>
+    </center>
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>

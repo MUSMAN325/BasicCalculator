@@ -1,0 +1,25 @@
+
+
+#container{
+    margin-top: 100px;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    border: none;
+    font-size: large;
+}
+input{
+    width: 18%;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: right;
+    padding: 10px;
+    text-shadow: whitesmoke;
+}
+table{
+    width: 20%;
+    height: 300px;
+}
